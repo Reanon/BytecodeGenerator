@@ -1,0 +1,1158 @@
+{
+	"binaryAnalyzer":{
+		"allCallPath":[],
+		"allCirclePath2StartPos":{},
+		"allInstrs":["ADD","SWAP1","REVERT","SWAP2","LT","MSTORE","CALLVALUE","CALLDATASIZE","JUMP","RETURN","DUP1","DUP2","MLOAD","DUP3","PUSH4","DUP4","PUSH1","ISZERO","JUMPI","SUB","JUMPDEST","STOP","EQ","CALLDATALOAD","DIV","POP","AND","ASSERTFAIL","PUSH29","SWAP3"],
+		"codeCoverage":0.9904761904761905,
+		"cyclomatic_complexity":2,
+		"disasm":[
+			{
+				"first":0,
+				"second":{
+					"first":"PUSH1",
+					"second":"80"
+				}
+			},
+			{
+				"first":2,
+				"second":{
+					"first":"PUSH1",
+					"second":"40"
+				}
+			},
+			{
+				"first":4,
+				"second":{
+					"first":"MSTORE",
+					"second":""
+				}
+			},
+			{
+				"first":5,
+				"second":{
+					"first":"PUSH1",
+					"second":"04"
+				}
+			},
+			{
+				"first":7,
+				"second":{
+					"first":"CALLDATASIZE",
+					"second":""
+				}
+			},
+			{
+				"first":8,
+				"second":{
+					"first":"LT",
+					"second":""
+				}
+			},
+			{
+				"first":9,
+				"second":{
+					"first":"PUSH1",
+					"second":"3f"
+				}
+			},
+			{
+				"first":11,
+				"second":{
+					"first":"JUMPI",
+					"second":""
+				}
+			},
+			{
+				"first":12,
+				"second":{
+					"first":"PUSH1",
+					"second":"00"
+				}
+			},
+			{
+				"first":14,
+				"second":{
+					"first":"CALLDATALOAD",
+					"second":""
+				}
+			},
+			{
+				"first":15,
+				"second":{
+					"first":"PUSH29",
+					"second":"0100000000000000000000000000000000000000000000000000000000"
+				}
+			},
+			{
+				"first":45,
+				"second":{
+					"first":"SWAP1",
+					"second":""
+				}
+			},
+			{
+				"first":46,
+				"second":{
+					"first":"DIV",
+					"second":""
+				}
+			},
+			{
+				"first":47,
+				"second":{
+					"first":"PUSH4",
+					"second":"ffffffff"
+				}
+			},
+			{
+				"first":52,
+				"second":{
+					"first":"AND",
+					"second":""
+				}
+			},
+			{
+				"first":53,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":54,
+				"second":{
+					"first":"PUSH4",
+					"second":"b9d92de8"
+				}
+			},
+			{
+				"first":59,
+				"second":{
+					"first":"EQ",
+					"second":""
+				}
+			},
+			{
+				"first":60,
+				"second":{
+					"first":"PUSH1",
+					"second":"44"
+				}
+			},
+			{
+				"first":62,
+				"second":{
+					"first":"JUMPI",
+					"second":""
+				}
+			},
+			{
+				"first":63,
+				"second":{
+					"first":"JUMPDEST",
+					"second":""
+				}
+			},
+			{
+				"first":64,
+				"second":{
+					"first":"PUSH1",
+					"second":"00"
+				}
+			},
+			{
+				"first":66,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":67,
+				"second":{
+					"first":"REVERT",
+					"second":""
+				}
+			},
+			{
+				"first":68,
+				"second":{
+					"first":"JUMPDEST",
+					"second":""
+				}
+			},
+			{
+				"first":69,
+				"second":{
+					"first":"CALLVALUE",
+					"second":""
+				}
+			},
+			{
+				"first":70,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":71,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":72,
+				"second":{
+					"first":"PUSH1",
+					"second":"4f"
+				}
+			},
+			{
+				"first":74,
+				"second":{
+					"first":"JUMPI",
+					"second":""
+				}
+			},
+			{
+				"first":75,
+				"second":{
+					"first":"PUSH1",
+					"second":"00"
+				}
+			},
+			{
+				"first":77,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":78,
+				"second":{
+					"first":"REVERT",
+					"second":""
+				}
+			},
+			{
+				"first":79,
+				"second":{
+					"first":"JUMPDEST",
+					"second":""
+				}
+			},
+			{
+				"first":80,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":81,
+				"second":{
+					"first":"PUSH1",
+					"second":"6c"
+				}
+			},
+			{
+				"first":83,
+				"second":{
+					"first":"PUSH1",
+					"second":"04"
+				}
+			},
+			{
+				"first":85,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":86,
+				"second":{
+					"first":"CALLDATASIZE",
+					"second":""
+				}
+			},
+			{
+				"first":87,
+				"second":{
+					"first":"SUB",
+					"second":""
+				}
+			},
+			{
+				"first":88,
+				"second":{
+					"first":"DUP2",
+					"second":""
+				}
+			},
+			{
+				"first":89,
+				"second":{
+					"first":"ADD",
+					"second":""
+				}
+			},
+			{
+				"first":90,
+				"second":{
+					"first":"SWAP1",
+					"second":""
+				}
+			},
+			{
+				"first":91,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":92,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":93,
+				"second":{
+					"first":"CALLDATALOAD",
+					"second":""
+				}
+			},
+			{
+				"first":94,
+				"second":{
+					"first":"SWAP1",
+					"second":""
+				}
+			},
+			{
+				"first":95,
+				"second":{
+					"first":"PUSH1",
+					"second":"20"
+				}
+			},
+			{
+				"first":97,
+				"second":{
+					"first":"ADD",
+					"second":""
+				}
+			},
+			{
+				"first":98,
+				"second":{
+					"first":"SWAP1",
+					"second":""
+				}
+			},
+			{
+				"first":99,
+				"second":{
+					"first":"SWAP3",
+					"second":""
+				}
+			},
+			{
+				"first":100,
+				"second":{
+					"first":"SWAP2",
+					"second":""
+				}
+			},
+			{
+				"first":101,
+				"second":{
+					"first":"SWAP1",
+					"second":""
+				}
+			},
+			{
+				"first":102,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":103,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":104,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":105,
+				"second":{
+					"first":"PUSH1",
+					"second":"8d"
+				}
+			},
+			{
+				"first":107,
+				"second":{
+					"first":"JUMP",
+					"second":""
+				}
+			},
+			{
+				"first":108,
+				"second":{
+					"first":"JUMPDEST",
+					"second":""
+				}
+			},
+			{
+				"first":109,
+				"second":{
+					"first":"PUSH1",
+					"second":"40"
+				}
+			},
+			{
+				"first":111,
+				"second":{
+					"first":"MLOAD",
+					"second":""
+				}
+			},
+			{
+				"first":112,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":113,
+				"second":{
+					"first":"DUP4",
+					"second":""
+				}
+			},
+			{
+				"first":114,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":115,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":116,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":117,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":118,
+				"second":{
+					"first":"DUP2",
+					"second":""
+				}
+			},
+			{
+				"first":119,
+				"second":{
+					"first":"MSTORE",
+					"second":""
+				}
+			},
+			{
+				"first":120,
+				"second":{
+					"first":"PUSH1",
+					"second":"20"
+				}
+			},
+			{
+				"first":122,
+				"second":{
+					"first":"ADD",
+					"second":""
+				}
+			},
+			{
+				"first":123,
+				"second":{
+					"first":"DUP3",
+					"second":""
+				}
+			},
+			{
+				"first":124,
+				"second":{
+					"first":"DUP2",
+					"second":""
+				}
+			},
+			{
+				"first":125,
+				"second":{
+					"first":"MSTORE",
+					"second":""
+				}
+			},
+			{
+				"first":126,
+				"second":{
+					"first":"PUSH1",
+					"second":"20"
+				}
+			},
+			{
+				"first":128,
+				"second":{
+					"first":"ADD",
+					"second":""
+				}
+			},
+			{
+				"first":129,
+				"second":{
+					"first":"SWAP3",
+					"second":""
+				}
+			},
+			{
+				"first":130,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":131,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":132,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":133,
+				"second":{
+					"first":"PUSH1",
+					"second":"40"
+				}
+			},
+			{
+				"first":135,
+				"second":{
+					"first":"MLOAD",
+					"second":""
+				}
+			},
+			{
+				"first":136,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":137,
+				"second":{
+					"first":"SWAP2",
+					"second":""
+				}
+			},
+			{
+				"first":138,
+				"second":{
+					"first":"SUB",
+					"second":""
+				}
+			},
+			{
+				"first":139,
+				"second":{
+					"first":"SWAP1",
+					"second":""
+				}
+			},
+			{
+				"first":140,
+				"second":{
+					"first":"RETURN",
+					"second":""
+				}
+			},
+			{
+				"first":141,
+				"second":{
+					"first":"JUMPDEST",
+					"second":""
+				}
+			},
+			{
+				"first":142,
+				"second":{
+					"first":"PUSH1",
+					"second":"00"
+				}
+			},
+			{
+				"first":144,
+				"second":{
+					"first":"DUP1",
+					"second":""
+				}
+			},
+			{
+				"first":145,
+				"second":{
+					"first":"PUSH1",
+					"second":"00"
+				}
+			},
+			{
+				"first":147,
+				"second":{
+					"first":"DUP4",
+					"second":""
+				}
+			},
+			{
+				"first":148,
+				"second":{
+					"first":"LT",
+					"second":""
+				}
+			},
+			{
+				"first":149,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":150,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":151,
+				"second":{
+					"first":"ISZERO",
+					"second":""
+				}
+			},
+			{
+				"first":152,
+				"second":{
+					"first":"PUSH1",
+					"second":"9c"
+				}
+			},
+			{
+				"first":154,
+				"second":{
+					"first":"JUMPI",
+					"second":""
+				}
+			},
+			{
+				"first":155,
+				"second":{
+					"first":"ASSERTFAIL",
+					"second":""
+				}
+			},
+			{
+				"first":156,
+				"second":{
+					"first":"JUMPDEST",
+					"second":""
+				}
+			},
+			{
+				"first":157,
+				"second":{
+					"first":"SWAP2",
+					"second":""
+				}
+			},
+			{
+				"first":158,
+				"second":{
+					"first":"POP",
+					"second":""
+				}
+			},
+			{
+				"first":159,
+				"second":{
+					"first":"SWAP2",
+					"second":""
+				}
+			},
+			{
+				"first":160,
+				"second":{
+					"first":"JUMP",
+					"second":""
+				}
+			},
+			{
+				"first":161,
+				"second":{
+					"first":"STOP",
+					"second":""
+				}
+			}
+		],
+		"disasmCode":"608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b9d92de8146044575b600080fd5b348015604f57600080fd5b50606c60048036038101908080359060200190929190505050608d565b60405180831515151581526020018281526020019250505060405180910390f35b60008060008310151515609c57fe5b9150915600\n000000: PUSH1 0x80\n000002: PUSH1 0x40\n000004: MSTORE\n000005: PUSH1 0x04\n000007: CALLDATASIZE\n000008: LT\n000009: PUSH1 0x3f\n000011: JUMPI\n000012: PUSH1 0x00\n000014: CALLDATALOAD\n000015: PUSH29 0x0100000000000000000000000000000000000000000000000000000000\n000045: SWAP1\n000046: DIV\n000047: PUSH4 0xffffffff\n000052: AND\n000053: DUP1\n000054: PUSH4 0xb9d92de8\n000059: EQ\n000060: PUSH1 0x44\n000062: JUMPI\n000063: JUMPDEST\n000064: PUSH1 0x00\n000066: DUP1\n000067: REVERT\n000068: JUMPDEST\n000069: CALLVALUE\n000070: DUP1\n000071: ISZERO\n000072: PUSH1 0x4f\n000074: JUMPI\n000075: PUSH1 0x00\n000077: DUP1\n000078: REVERT\n000079: JUMPDEST\n000080: POP\n000081: PUSH1 0x6c\n000083: PUSH1 0x04\n000085: DUP1\n000086: CALLDATASIZE\n000087: SUB\n000088: DUP2\n000089: ADD\n000090: SWAP1\n000091: DUP1\n000092: DUP1\n000093: CALLDATALOAD\n000094: SWAP1\n000095: PUSH1 0x20\n000097: ADD\n000098: SWAP1\n000099: SWAP3\n000100: SWAP2\n000101: SWAP1\n000102: POP\n000103: POP\n000104: POP\n000105: PUSH1 0x8d\n000107: JUMP\n000108: JUMPDEST\n000109: PUSH1 0x40\n000111: MLOAD\n000112: DUP1\n000113: DUP4\n000114: ISZERO\n000115: ISZERO\n000116: ISZERO\n000117: ISZERO\n000118: DUP2\n000119: MSTORE\n000120: PUSH1 0x20\n000122: ADD\n000123: DUP3\n000124: DUP2\n000125: MSTORE\n000126: PUSH1 0x20\n000128: ADD\n000129: SWAP3\n000130: POP\n000131: POP\n000132: POP\n000133: PUSH1 0x40\n000135: MLOAD\n000136: DUP1\n000137: SWAP2\n000138: SUB\n000139: SWAP1\n000140: RETURN\n000141: JUMPDEST\n000142: PUSH1 0x00\n000144: DUP1\n000145: PUSH1 0x00\n000147: DUP4\n000148: LT\n000149: ISZERO\n000150: ISZERO\n000151: ISZERO\n000152: PUSH1 0x9c\n000154: JUMPI\n000155: Missing opcode 0xfe\n000156: JUMPDEST\n000157: SWAP2\n000158: POP\n000159: SWAP2\n000160: JUMP\n000161: STOP\n",
+		"fallbackPos":63,
+		"legalContract":true,
+		"misRecognizedJump":false,
+		"numInster":105,
+		"pos2BlockMap":{"0":{
+				"conditionalJumpExpression":"LT_8(CALLDATASIZE_7,4_5)",
+				"conditionalJumpPos":63,
+				"endBlockPos":11,
+				"evm_stack":[],
+				"fallPos":12,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[0]"},
+					{"$ref":"$.binaryAnalyzer.disasm[1]"},
+					{"$ref":"$.binaryAnalyzer.disasm[2]"},
+					{"$ref":"$.binaryAnalyzer.disasm[3]"},
+					{"$ref":"$.binaryAnalyzer.disasm[4]"},
+					{"$ref":"$.binaryAnalyzer.disasm[5]"},
+					{"$ref":"$.binaryAnalyzer.disasm[6]"},
+					{"$ref":"$.binaryAnalyzer.disasm[7]"}
+				],
+				"instrString":"PUSH1 PUSH1 MSTORE PUSH1 CALLDATASIZE LT PUSH1 JUMPI ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":1,
+				"moneyCall":false,
+				"startBlockPos":0,
+				"unconditionalJumpPos":-1
+			},"12":{
+				"conditionalJumpExpression":"EQ_59(3118018024_54,AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)))",
+				"conditionalJumpPos":68,
+				"endBlockPos":62,
+				"evm_stack":["AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":63,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[8]"},
+					{"$ref":"$.binaryAnalyzer.disasm[9]"},
+					{"$ref":"$.binaryAnalyzer.disasm[10]"},
+					{"$ref":"$.binaryAnalyzer.disasm[11]"},
+					{"$ref":"$.binaryAnalyzer.disasm[12]"},
+					{"$ref":"$.binaryAnalyzer.disasm[13]"},
+					{"$ref":"$.binaryAnalyzer.disasm[14]"},
+					{"$ref":"$.binaryAnalyzer.disasm[15]"},
+					{"$ref":"$.binaryAnalyzer.disasm[16]"},
+					{"$ref":"$.binaryAnalyzer.disasm[17]"},
+					{"$ref":"$.binaryAnalyzer.disasm[18]"},
+					{"$ref":"$.binaryAnalyzer.disasm[19]"}
+				],
+				"instrString":"PUSH1 CALLDATALOAD PUSH29 SWAP1 DIV PUSH4 AND DUP1 PUSH4 EQ PUSH1 JUMPI ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":1,
+				"moneyCall":false,
+				"startBlockPos":12,
+				"unconditionalJumpPos":-1
+			},"63":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":67,
+				"evm_stack":["AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[20]"},
+					{"$ref":"$.binaryAnalyzer.disasm[21]"},
+					{"$ref":"$.binaryAnalyzer.disasm[22]"},
+					{"$ref":"$.binaryAnalyzer.disasm[23]"}
+				],
+				"instrString":"JUMPDEST PUSH1 DUP1 REVERT ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":4,
+				"moneyCall":false,
+				"startBlockPos":63,
+				"unconditionalJumpPos":-1
+			},"68":{
+				"conditionalJumpExpression":"ISZERO_71(CALLVALUE_69)",
+				"conditionalJumpPos":79,
+				"endBlockPos":74,
+				"evm_stack":["CALLVALUE_69","AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":75,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[24]"},
+					{"$ref":"$.binaryAnalyzer.disasm[25]"},
+					{"$ref":"$.binaryAnalyzer.disasm[26]"},
+					{"$ref":"$.binaryAnalyzer.disasm[27]"},
+					{"$ref":"$.binaryAnalyzer.disasm[28]"},
+					{"$ref":"$.binaryAnalyzer.disasm[29]"}
+				],
+				"instrString":"JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 JUMPI ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":1,
+				"moneyCall":false,
+				"startBlockPos":68,
+				"unconditionalJumpPos":-1
+			},"75":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":78,
+				"evm_stack":["CALLVALUE_69","AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[30]"},
+					{"$ref":"$.binaryAnalyzer.disasm[31]"},
+					{"$ref":"$.binaryAnalyzer.disasm[32]"}
+				],
+				"instrString":"PUSH1 DUP1 REVERT ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":4,
+				"moneyCall":false,
+				"startBlockPos":75,
+				"unconditionalJumpPos":-1
+			},"79":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":107,
+				"evm_stack":["CALLDATALOAD_93(4_83)","108_81","AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[33]"},
+					{"$ref":"$.binaryAnalyzer.disasm[34]"},
+					{"$ref":"$.binaryAnalyzer.disasm[35]"},
+					{"$ref":"$.binaryAnalyzer.disasm[36]"},
+					{"$ref":"$.binaryAnalyzer.disasm[37]"},
+					{"$ref":"$.binaryAnalyzer.disasm[38]"},
+					{"$ref":"$.binaryAnalyzer.disasm[39]"},
+					{"$ref":"$.binaryAnalyzer.disasm[40]"},
+					{"$ref":"$.binaryAnalyzer.disasm[41]"},
+					{"$ref":"$.binaryAnalyzer.disasm[42]"},
+					{"$ref":"$.binaryAnalyzer.disasm[43]"},
+					{"$ref":"$.binaryAnalyzer.disasm[44]"},
+					{"$ref":"$.binaryAnalyzer.disasm[45]"},
+					{"$ref":"$.binaryAnalyzer.disasm[46]"},
+					{"$ref":"$.binaryAnalyzer.disasm[47]"},
+					{"$ref":"$.binaryAnalyzer.disasm[48]"},
+					{"$ref":"$.binaryAnalyzer.disasm[49]"},
+					{"$ref":"$.binaryAnalyzer.disasm[50]"},
+					{"$ref":"$.binaryAnalyzer.disasm[51]"},
+					{"$ref":"$.binaryAnalyzer.disasm[52]"},
+					{"$ref":"$.binaryAnalyzer.disasm[53]"},
+					{"$ref":"$.binaryAnalyzer.disasm[54]"},
+					{"$ref":"$.binaryAnalyzer.disasm[55]"},
+					{"$ref":"$.binaryAnalyzer.disasm[56]"},
+					{"$ref":"$.binaryAnalyzer.disasm[57]"}
+				],
+				"instrString":"JUMPDEST POP PUSH1 PUSH1 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD SWAP1 PUSH1 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH1 JUMP ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":2,
+				"moneyCall":false,
+				"startBlockPos":79,
+				"unconditionalJumpPos":141
+			},"108":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":140,
+				"evm_stack":["AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[58]"},
+					{"$ref":"$.binaryAnalyzer.disasm[59]"},
+					{"$ref":"$.binaryAnalyzer.disasm[60]"},
+					{"$ref":"$.binaryAnalyzer.disasm[61]"},
+					{"$ref":"$.binaryAnalyzer.disasm[62]"},
+					{"$ref":"$.binaryAnalyzer.disasm[63]"},
+					{"$ref":"$.binaryAnalyzer.disasm[64]"},
+					{"$ref":"$.binaryAnalyzer.disasm[65]"},
+					{"$ref":"$.binaryAnalyzer.disasm[66]"},
+					{"$ref":"$.binaryAnalyzer.disasm[67]"},
+					{"$ref":"$.binaryAnalyzer.disasm[68]"},
+					{"$ref":"$.binaryAnalyzer.disasm[69]"},
+					{"$ref":"$.binaryAnalyzer.disasm[70]"},
+					{"$ref":"$.binaryAnalyzer.disasm[71]"},
+					{"$ref":"$.binaryAnalyzer.disasm[72]"},
+					{"$ref":"$.binaryAnalyzer.disasm[73]"},
+					{"$ref":"$.binaryAnalyzer.disasm[74]"},
+					{"$ref":"$.binaryAnalyzer.disasm[75]"},
+					{"$ref":"$.binaryAnalyzer.disasm[76]"},
+					{"$ref":"$.binaryAnalyzer.disasm[77]"},
+					{"$ref":"$.binaryAnalyzer.disasm[78]"},
+					{"$ref":"$.binaryAnalyzer.disasm[79]"},
+					{"$ref":"$.binaryAnalyzer.disasm[80]"},
+					{"$ref":"$.binaryAnalyzer.disasm[81]"},
+					{"$ref":"$.binaryAnalyzer.disasm[82]"},
+					{"$ref":"$.binaryAnalyzer.disasm[83]"},
+					{"$ref":"$.binaryAnalyzer.disasm[84]"},
+					{"$ref":"$.binaryAnalyzer.disasm[85]"},
+					{"$ref":"$.binaryAnalyzer.disasm[86]"}
+				],
+				"instrString":"JUMPDEST PUSH1 MLOAD DUP1 DUP4 ISZERO ISZERO ISZERO ISZERO DUP2 MSTORE PUSH1 ADD DUP3 DUP2 MSTORE PUSH1 ADD SWAP3 POP POP POP PUSH1 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":4,
+				"moneyCall":false,
+				"startBlockPos":108,
+				"unconditionalJumpPos":-1
+			},"141":{
+				"conditionalJumpExpression":"ISZERO_151(ISZERO_150(ISZERO_149(LT_148(CALLDATALOAD_93(4_83),0_145))))",
+				"conditionalJumpPos":156,
+				"endBlockPos":154,
+				"evm_stack":["0_142","0_142","CALLDATALOAD_93(4_83)","108_81","AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":155,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[87]"},
+					{"$ref":"$.binaryAnalyzer.disasm[88]"},
+					{"$ref":"$.binaryAnalyzer.disasm[89]"},
+					{"$ref":"$.binaryAnalyzer.disasm[90]"},
+					{"$ref":"$.binaryAnalyzer.disasm[91]"},
+					{"$ref":"$.binaryAnalyzer.disasm[92]"},
+					{"$ref":"$.binaryAnalyzer.disasm[93]"},
+					{"$ref":"$.binaryAnalyzer.disasm[94]"},
+					{"$ref":"$.binaryAnalyzer.disasm[95]"},
+					{"$ref":"$.binaryAnalyzer.disasm[96]"},
+					{"$ref":"$.binaryAnalyzer.disasm[97]"}
+				],
+				"instrString":"JUMPDEST PUSH1 DUP1 PUSH1 DUP4 LT ISZERO ISZERO ISZERO PUSH1 JUMPI ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":1,
+				"moneyCall":false,
+				"startBlockPos":141,
+				"unconditionalJumpPos":-1
+			},"155":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":155,
+				"evm_stack":["0_142","0_142","CALLDATALOAD_93(4_83)","108_81","AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[98]"}
+				],
+				"instrString":"ASSERTFAIL ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":4,
+				"moneyCall":false,
+				"startBlockPos":155,
+				"unconditionalJumpPos":-1
+			},"156":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":160,
+				"evm_stack":["0_142","0_142","AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))"],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[99]"},
+					{"$ref":"$.binaryAnalyzer.disasm[100]"},
+					{"$ref":"$.binaryAnalyzer.disasm[101]"},
+					{"$ref":"$.binaryAnalyzer.disasm[102]"},
+					{"$ref":"$.binaryAnalyzer.disasm[103]"}
+				],
+				"instrString":"JUMPDEST SWAP2 POP SWAP2 JUMP ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":2,
+				"moneyCall":false,
+				"startBlockPos":156,
+				"unconditionalJumpPos":108
+			},"161":{
+				"conditionalJumpExpression":"",
+				"conditionalJumpPos":-1,
+				"endBlockPos":161,
+				"evm_stack":[],
+				"fallPos":-1,
+				"instrList":[
+					{"$ref":"$.binaryAnalyzer.disasm[104]"}
+				],
+				"instrString":"STOP ",
+				"isCircle":false,
+				"isCircleStart":false,
+				"jumpType":4,
+				"moneyCall":false,
+				"startBlockPos":161,
+				"unconditionalJumpPos":-1
+			}
+		},
+		"publicFunctionStartList":[
+			68
+		],
+		"stackEvents":[
+			"PUSH1 ==> 0 ==> 128_0 ",
+			"PUSH1 ==> 2 ==> 64_2 128_0 ",
+			"MSTORE ==> 4 ==> NULL",
+			"PUSH1 ==> 5 ==> 4_5 ",
+			"CALLDATASIZE ==> 7 ==> CALLDATASIZE_7 4_5 ",
+			"LT ==> 8 ==> LT_8(CALLDATASIZE_7,4_5) ",
+			"PUSH1 ==> 9 ==> 63_9 LT_8(CALLDATASIZE_7,4_5) ",
+			"JUMPI ==> 11 ==> NULL",
+			"JUMPDEST ==> 63 ==> NULL",
+			"PUSH1 ==> 64 ==> 0_64 ",
+			"DUP1 ==> 66 ==> 0_64 0_64 ",
+			"REVERT ==> 67 ==> NULL",
+			"PUSH1 ==> 12 ==> 0_12 ",
+			"CALLDATALOAD ==> 14 ==> CALLDATALOAD_14(0_12) ",
+			"PUSH29 ==> 15 ==> PUSH29_15 CALLDATALOAD_14(0_12) ",
+			"SWAP1 ==> 45 ==> CALLDATALOAD_14(0_12) PUSH29_15 ",
+			"DIV ==> 46 ==> DIV_46(CALLDATALOAD_14(0_12),PUSH29_15) ",
+			"PUSH4 ==> 47 ==> 4294967295_47 DIV_46(CALLDATALOAD_14(0_12),PUSH29_15) ",
+			"AND ==> 52 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 53 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH4 ==> 54 ==> 3118018024_54 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"EQ ==> 59 ==> EQ_59(3118018024_54,AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 60 ==> 68_60 EQ_59(3118018024_54,AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPI ==> 62 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPDEST ==> 68 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"CALLVALUE ==> 69 ==> CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 70 ==> CALLVALUE_69 CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 71 ==> ISZERO_71(CALLVALUE_69) CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 72 ==> 79_72 ISZERO_71(CALLVALUE_69) CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPI ==> 74 ==> CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPDEST ==> 79 ==> CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 80 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 81 ==> 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 83 ==> 4_83 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 85 ==> 4_83 4_83 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"CALLDATASIZE ==> 86 ==> CALLDATASIZE_86 4_83 4_83 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SUB ==> 87 ==> SUB_87(CALLDATASIZE_86,4_83) 4_83 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP2 ==> 88 ==> 4_83 SUB_87(CALLDATASIZE_86,4_83) 4_83 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ADD ==> 89 ==> ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 4_83 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP1 ==> 90 ==> 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 91 ==> 4_83 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 92 ==> 4_83 4_83 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"CALLDATALOAD ==> 93 ==> CALLDATALOAD_93(4_83) 4_83 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP1 ==> 94 ==> 4_83 CALLDATALOAD_93(4_83) 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 95 ==> 32_95 4_83 CALLDATALOAD_93(4_83) 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ADD ==> 97 ==> 36_97 CALLDATALOAD_93(4_83) 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP1 ==> 98 ==> CALLDATALOAD_93(4_83) 36_97 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP3 ==> 99 ==> ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) 36_97 4_83 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP2 ==> 100 ==> 4_83 36_97 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP1 ==> 101 ==> 36_97 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 102 ==> 4_83 ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 103 ==> ADD_89(4_83,SUB_87(CALLDATASIZE_86,4_83)) CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 104 ==> CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 105 ==> 141_105 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMP ==> 107 ==> CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPDEST ==> 141 ==> CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 142 ==> 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 144 ==> 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 145 ==> 0_145 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP4 ==> 147 ==> CALLDATALOAD_93(4_83) 0_145 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"LT ==> 148 ==> LT_148(CALLDATALOAD_93(4_83),0_145) 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 149 ==> ISZERO_149(LT_148(CALLDATALOAD_93(4_83),0_145)) 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 150 ==> ISZERO_150(ISZERO_149(LT_148(CALLDATALOAD_93(4_83),0_145))) 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 151 ==> ISZERO_151(ISZERO_150(ISZERO_149(LT_148(CALLDATALOAD_93(4_83),0_145)))) 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 152 ==> 156_152 ISZERO_151(ISZERO_150(ISZERO_149(LT_148(CALLDATALOAD_93(4_83),0_145)))) 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPI ==> 154 ==> 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPDEST ==> 156 ==> 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP2 ==> 157 ==> CALLDATALOAD_93(4_83) 0_142 0_142 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 158 ==> 0_142 0_142 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP2 ==> 159 ==> 108_81 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMP ==> 160 ==> 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPDEST ==> 108 ==> 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 109 ==> 64_109 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"MLOAD ==> 111 ==> MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 112 ==> MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP4 ==> 113 ==> 0_142 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 114 ==> 1_114 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 115 ==> 0_115 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 116 ==> 1_116 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ISZERO ==> 117 ==> 0_117 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP2 ==> 118 ==> MLOAD_111(64_109) 0_117 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"MSTORE ==> 119 ==> MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 120 ==> 32_120 MLOAD_111(64_109) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ADD ==> 122 ==> ADD_122(32_120,MLOAD_111(64_109)) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP3 ==> 123 ==> 0_142 ADD_122(32_120,MLOAD_111(64_109)) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP2 ==> 124 ==> ADD_122(32_120,MLOAD_111(64_109)) 0_142 ADD_122(32_120,MLOAD_111(64_109)) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"MSTORE ==> 125 ==> ADD_122(32_120,MLOAD_111(64_109)) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 126 ==> 32_126 ADD_122(32_120,MLOAD_111(64_109)) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ADD ==> 128 ==> ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) MLOAD_111(64_109) 0_142 0_142 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP3 ==> 129 ==> 0_142 MLOAD_111(64_109) 0_142 ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 130 ==> MLOAD_111(64_109) 0_142 ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 131 ==> 0_142 ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"POP ==> 132 ==> ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 133 ==> 64_133 ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"MLOAD ==> 135 ==> MLOAD_135(64_133) ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 136 ==> MLOAD_135(64_133) MLOAD_135(64_133) ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP2 ==> 137 ==> ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))) MLOAD_135(64_133) MLOAD_135(64_133) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SUB ==> 138 ==> SUB_138(ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))),MLOAD_135(64_133)) MLOAD_135(64_133) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"SWAP1 ==> 139 ==> MLOAD_135(64_133) SUB_138(ADD_128(32_126,ADD_122(32_120,MLOAD_111(64_109))),MLOAD_135(64_133)) AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"RETURN ==> 140 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"ASSERTFAIL ==> 155 ==> 0_142 0_142 CALLDATALOAD_93(4_83) 108_81 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 75 ==> 0_75 CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 77 ==> 0_75 0_75 CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"REVERT ==> 78 ==> CALLVALUE_69 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"JUMPDEST ==> 63 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"PUSH1 ==> 64 ==> 0_64 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"DUP1 ==> 66 ==> 0_64 0_64 AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) ",
+			"REVERT ==> 67 ==> AND_52(4294967295_47,DIV_46(CALLDATALOAD_14(0_12),PUSH29_15)) "
+		],
+		"startPosList":[
+			0,
+			12,
+			63,
+			68,
+			75,
+			79,
+			108,
+			141,
+			155,
+			156,
+			161
+		],
+		"versionGap":false
+	},
+	"hasBlockInfoDependency":false,
+	"hasDoSUnderExternalInfluence":false,
+	"hasGreedyContract":false,
+	"hasNestCall":false,
+	"hasReentrancy":false,
+	"hasStrictBalanceEquality":false,
+	"hasTransactionStateDependency":false,
+	"hasUnchechedExternalCalls":false
+}
